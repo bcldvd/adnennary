@@ -1,0 +1,19 @@
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdn.blockspring.com/blockspring.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+<div ng-app="app" ng-controller="MainController" class="slider">
+	
+  <input  ng-repeat="entry in adnennary" type="radio" name="slider" title="slide{{$index+1}}" checked="checked" class="slider__nav"/>
+  
+	
+  <div class="slider__inner">
+    <div class="slider__contents" ng-repeat="entry in adnennary"><i class="slider__image fa fa-{{entry.icon}}"></i>
+      <h2 class="slider__caption">{{entry.Adnen}}</h2>
+      <p class="slider__txt">{{entry.English}}</p>
+    </div>
+  </div>
+</div>
