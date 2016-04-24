@@ -60,42 +60,50 @@ body {
           transform: translateX(0%);
 }
 .slider__nav:checked:nth-of-type(2) ~ .slider__inner {
-  -webkit-transform: translateX(-11.11111%);
-          transform: translateX(-11.11111%);
+  -webkit-transform: translateX(-9.09091%);
+          transform: translateX(-9.09091%);
 }
 .slider__nav:checked:nth-of-type(3) ~ .slider__inner {
-  -webkit-transform: translateX(-22.22222%);
-          transform: translateX(-22.22222%);
+  -webkit-transform: translateX(-18.18182%);
+          transform: translateX(-18.18182%);
 }
 .slider__nav:checked:nth-of-type(4) ~ .slider__inner {
-  -webkit-transform: translateX(-33.33333%);
-          transform: translateX(-33.33333%);
+  -webkit-transform: translateX(-27.27273%);
+          transform: translateX(-27.27273%);
 }
 .slider__nav:checked:nth-of-type(5) ~ .slider__inner {
-  -webkit-transform: translateX(-44.44444%);
-          transform: translateX(-44.44444%);
+  -webkit-transform: translateX(-36.36364%);
+          transform: translateX(-36.36364%);
 }
 .slider__nav:checked:nth-of-type(6) ~ .slider__inner {
-  -webkit-transform: translateX(-55.55556%);
-          transform: translateX(-55.55556%);
+  -webkit-transform: translateX(-45.45455%);
+          transform: translateX(-45.45455%);
 }
 .slider__nav:checked:nth-of-type(7) ~ .slider__inner {
-  -webkit-transform: translateX(-66.66667%);
-          transform: translateX(-66.66667%);
+  -webkit-transform: translateX(-54.54545%);
+          transform: translateX(-54.54545%);
 }
 .slider__nav:checked:nth-of-type(8) ~ .slider__inner {
-  -webkit-transform: translateX(-77.77778%);
-          transform: translateX(-77.77778%);
+  -webkit-transform: translateX(-63.63636%);
+          transform: translateX(-63.63636%);
 }
 .slider__nav:checked:nth-of-type(9) ~ .slider__inner {
-  -webkit-transform: translateX(-88.88889%);
-          transform: translateX(-88.88889%);
+  -webkit-transform: translateX(-72.72727%);
+          transform: translateX(-72.72727%);
+}
+.slider__nav:checked:nth-of-type(10) ~ .slider__inner {
+  -webkit-transform: translateX(-81.81818%);
+          transform: translateX(-81.81818%);
+}
+.slider__nav:checked:nth-of-type(11) ~ .slider__inner {
+  -webkit-transform: translateX(-90.90909%);
+          transform: translateX(-90.90909%);
 }
 .slider__inner {
   position: absolute;
   top: 0;
   left: 0;
-  width: 900%;
+  width: 1100%;
   height: 100%;
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out;
